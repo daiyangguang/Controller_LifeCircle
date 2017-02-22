@@ -13,6 +13,11 @@
 		AE5680FB1E5DCBD4009B3182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5680F91E5DCBD4009B3182 /* Main.storyboard */; };
 		AE5680FD1E5DCBD4009B3182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5680FC1E5DCBD4009B3182 /* Assets.xcassets */; };
 		AE5681001E5DCBD4009B3182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5680FE1E5DCBD4009B3182 /* LaunchScreen.storyboard */; };
+		AE56810D1E5DCED1009B3182 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE56810B1E5DCED1009B3182 /* TestViewController.m */; };
+		AE5681101E5DD21B009B3182 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE56810F1E5DD21B009B3182 /* OtherViewController.xib */; };
+		AE5681151E5DD815009B3182 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5681131E5DD815009B3182 /* TestView.xib */; };
+		AE5681161E5DD815009B3182 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5681141E5DD815009B3182 /* TestViewController.xib */; };
+		AE5681181E5DD9CF009B3182 /* TestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5681171E5DD9CF009B3182 /* TestViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		AE5680FC1E5DCBD4009B3182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5680FF1E5DCBD4009B3182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5681011E5DCBD4009B3182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE56810A1E5DCED1009B3182 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AE56810B1E5DCED1009B3182 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		AE56810F1E5DD21B009B3182 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		AE5681131E5DD815009B3182 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		AE5681141E5DD815009B3182 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		AE5681171E5DD9CF009B3182 /* TestViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +73,13 @@
 				AE5680F41E5DCBD4009B3182 /* AppDelegate.m */,
 				AE5680F61E5DCBD4009B3182 /* ViewController.h */,
 				AE5680F71E5DCBD4009B3182 /* ViewController.m */,
+				AE56810A1E5DCED1009B3182 /* TestViewController.h */,
+				AE56810B1E5DCED1009B3182 /* TestViewController.m */,
+				AE5681141E5DD815009B3182 /* TestViewController.xib */,
+				AE56810F1E5DD21B009B3182 /* OtherViewController.xib */,
+				AE5681131E5DD815009B3182 /* TestView.xib */,
 				AE5680F91E5DCBD4009B3182 /* Main.storyboard */,
+				AE5681171E5DD9CF009B3182 /* TestViewController.storyboard */,
 				AE5680FC1E5DCBD4009B3182 /* Assets.xcassets */,
 				AE5680FE1E5DCBD4009B3182 /* LaunchScreen.storyboard */,
 				AE5681011E5DCBD4009B3182 /* Info.plist */,
@@ -139,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5681001E5DCBD4009B3182 /* LaunchScreen.storyboard in Resources */,
+				AE5681101E5DD21B009B3182 /* OtherViewController.xib in Resources */,
 				AE5680FD1E5DCBD4009B3182 /* Assets.xcassets in Resources */,
+				AE5681151E5DD815009B3182 /* TestView.xib in Resources */,
+				AE5681161E5DD815009B3182 /* TestViewController.xib in Resources */,
+				AE5681181E5DD9CF009B3182 /* TestViewController.storyboard in Resources */,
 				AE5680FB1E5DCBD4009B3182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +174,7 @@
 			files = (
 				AE5680F81E5DCBD4009B3182 /* ViewController.m in Sources */,
 				AE5680F51E5DCBD4009B3182 /* AppDelegate.m in Sources */,
+				AE56810D1E5DCED1009B3182 /* TestViewController.m in Sources */,
 				AE5680F21E5DCBD4009B3182 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
